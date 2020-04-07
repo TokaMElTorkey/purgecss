@@ -1,0 +1,19 @@
+{
+  "name": "TheEvent",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this theme!",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "purgecss --css lib/bootstrap/css/bootstrap.min.css,lib/font-awesome/css/font-awesome.min.css,lib/animate/animate.min.css,lib/venobox/venobox.css,lib/owlcarousel/assets/owl.carousel.min.css,css/style.css --content index.html -o dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "purgecss": "^2.1.0"
+  }
+}
